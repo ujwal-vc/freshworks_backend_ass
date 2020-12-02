@@ -12,7 +12,6 @@ class sad:
             os.mkdir(os.path.join(path,'data_store'))
             path=path+'\data_store'
             os.chdir(path)
-            print(path)
         except:
             os.mkdir('data_store')
             
