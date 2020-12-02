@@ -23,7 +23,7 @@ class sad:
         if len(key)>32:
             raise Exception('!!!key should contain only 32 characters')
         #3.constraint
-        if (os.path.isfile('key_list')):
+        if (os.path.isfile(key)):
             raise Exception('!!!The key is already used try different one')
 
         value=input('Enter the value : ')
